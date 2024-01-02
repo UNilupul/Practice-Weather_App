@@ -86,3 +86,37 @@ p {
     font-weight: bold;
     color: hsl(0, 0%, 0%, 0.75);
 }
+
+
+@media (max-width: 616px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .weatherForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cityInput {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    button[type="submit"] {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 402px) {
+    .card {
+        width: 90%;
+        min-width: 200px;
+        padding: 30px;
+    }
+}
